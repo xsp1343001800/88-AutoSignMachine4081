@@ -15,8 +15,8 @@ function generateMixed(n) {
 
 
 var appInfo = {
-    version: 8.0805,
-    unicom_version: 'android@8.0805',
+    version: 8.0900,
+    unicom_version: 'android@8.0900',
     app_name: '中国联通',
     package_name: 'com.sinovatech.unicom.ui'
 }
@@ -24,14 +24,16 @@ var devices = [{
     android_version: '10',
     deviceBrand: 'HONOR',
     deviceModel: 'PCT-AL10',
-    buildSn: 'LMY48Z',
-    deviceId: generateMixed(15) + ''
+    buildSn: 'MVLDU19119002362',
+//    deviceId: generateMixed(15) + ''
+	deviceId: 'QP1A.190711.020'
 }, {
     android_version: '11',
     deviceBrand: 'Xiaomi',
-    deviceModel: 'Redmi K20 Pro Premium Edition',
-    buildSn: 'V417IR',
-    deviceId: generateMixed(15) + ''
+    deviceModel: 'Redmi K20 Pro',
+    buildSn: 'b7701075',
+//    deviceId: generateMixed(15) + ''
+	deviceId: 'RKQ.200826.002'
 }]
 var device = devices[Math.floor(Math.random() * devices.length)]
 var userAgentTpl = {
