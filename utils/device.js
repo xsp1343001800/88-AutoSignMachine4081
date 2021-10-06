@@ -25,15 +25,15 @@ var devices = [{
     deviceBrand: 'HONOR',
     deviceModel: 'PCT-AL10',
     buildSn: 'MVLDU19119002362',
-//    deviceId: generateMixed(15) + ''
-	deviceId: 'QP1A.190711.020'
+    deviceId: generateMixed(15) + ''
+
 }, {
     android_version: '11',
     deviceBrand: 'Xiaomi',
     deviceModel: 'Redmi K20 Pro',
     buildSn: 'b7701075',
-//    deviceId: generateMixed(15) + ''
-	deviceId: 'RKQ.200826.002'
+    deviceId: generateMixed(15) + ''
+
 }]
 var device = devices[Math.floor(Math.random() * devices.length)]
 var userAgentTpl = {
